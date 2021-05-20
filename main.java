@@ -13,7 +13,7 @@ import javax.security.auth.login.LoginException;
 public class main {
 
 //    Token
-    static String TOKEN = "ODA3MzkxOTE2NjQ2ODU4NzY0.YB3UUQ.cE2oIbAB4lNifUi7qyZu_AgrYpA";
+    static String TOKEN = "";
 
     public static void main(String[] args) throws LoginException{
         JDA builder = JDABuilder.createDefault(TOKEN).build();

@@ -14,7 +14,7 @@ public class pingCommand extends Command {
     protected void execute(CommandEvent event) {
         EmbedBuilder ping = new EmbedBuilder();
         ping.setColor(0x694200);
-        ping.setTitle("**PING**");
+        ping.setTitle("PING");
         ping.setDescription("The time took was: " + event.getJDA().getGatewayPing());
         event.reply(ping.build());
     }
